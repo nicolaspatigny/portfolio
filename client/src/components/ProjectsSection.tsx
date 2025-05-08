@@ -8,11 +8,11 @@ interface Project {
   year: string;
   demoLink: string;
   githubLink: string;
-  tagColors: Record<string, { bg: string; text: string }>;
+  tagColors?: Record<string, { bg: string; text: string }>;
 }
 
 export default function ProjectsSection() {
-  const tagColors = {
+  const tagColors: Record<string, { bg: string; text: string }> = {
     "React": { bg: "bg-blue-100", text: "text-blue-800" },
     "Vite": { bg: "bg-green-100", text: "text-green-800" },
     "CSS3": { bg: "bg-purple-100", text: "text-purple-800" },
@@ -24,17 +24,20 @@ export default function ProjectsSection() {
     "Android": { bg: "bg-green-100", text: "text-green-800" },
     "Firebase": { bg: "bg-blue-100", text: "text-blue-800" },
     "UI/UX": { bg: "bg-red-100", text: "text-red-800" },
+    "TailwindCSS": { bg: "bg-blue-100", text: "text-blue-800" },
+    "Framer Motion": { bg: "bg-purple-100", text: "text-purple-800" },
+    "TypeScript": { bg: "bg-blue-100", text: "text-blue-800" },
   };
 
   const projects: Project[] = [
     {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website built with React and Vite, implementing modern UI/UX principles and component-based architecture.",
+      title: "Modern Portfolio Website",
+      description: "A responsive, animated portfolio website built with React, TailwindCSS and Framer Motion. Features smooth scrolling, interactive elements, and a mobile-first responsive design approach.",
       image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
-      tags: ["React", "Vite", "CSS3", "JavaScript"],
-      year: "2023",
-      demoLink: "https://nicolaspatigny.github.io/portfolio/",
-      githubLink: "https://github.com/nicolaspatigny/portfolio",
+      tags: ["React", "TailwindCSS", "Framer Motion", "TypeScript"],
+      year: "2024",
+      demoLink: "#",
+      githubLink: "#",
       tagColors,
     },
     {
@@ -132,7 +135,7 @@ export default function ProjectsSection() {
                   {project.tags.map((tag) => (
                     <span 
                       key={tag} 
-                      className={`px-3 py-1 ${project.tagColors[tag].bg} ${project.tagColors[tag].text} rounded-full text-xs font-medium`}
+                      className={`px-3 py-1 ${tagColors[tag]?.bg || "bg-gray-100"} ${tagColors[tag]?.text || "text-gray-800"} rounded-full text-xs font-medium`}
                     >
                       {tag}
                     </span>
