@@ -19,10 +19,10 @@ export default function SkillsSection() {
   ];
 
   const backendSkills: Skill[] = [
-    { name: "Python", percentage: 75, color: "bg-accent" },
-    { name: "Kotlin", percentage: 70, color: "bg-accent" },
-    { name: "Node.js", percentage: 65, color: "bg-accent" },
-    { name: "MySQL", percentage: 70, color: "bg-accent" },
+    { name: "Python", percentage: 75 },
+    { name: "Kotlin", percentage: 70 },
+    { name: "Node.js", percentage: 65 },
+    { name: "MySQL", percentage: 70 },
   ];
 
   const methodologies: Skill[] = [
