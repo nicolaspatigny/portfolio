@@ -4,7 +4,7 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
-  base: "portfolio",
+  base: "/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -26,9 +26,6 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname, "client"),
   build: {
-    rollupOptions: {
-      external: ["crypto"],
-    },
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
   },
