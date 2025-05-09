@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 
+// Create a blue placeholder with initials NP
+const profileImageBase64 = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjNDA3MmJlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5MCIgZmlsbD0id2hpdGUiPk5QPC90ZXh0Pjwvc3ZnPg==`;
+
 export default function HeroSection() {
   return (
     <section id="hero" className="min-h-screen flex items-center pt-16">
@@ -96,8 +99,8 @@ export default function HeroSection() {
             transition={{ duration: 0.8 }}
           >
             <motion.img 
-              src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&h=700" 
-              alt="Developer workspace showcasing coding environment" 
+              src={profileImageBase64} 
+              alt="Nicolas Patigny profile photo" 
               className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-xl border-4 border-white"
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}

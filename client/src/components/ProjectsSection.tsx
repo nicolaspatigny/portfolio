@@ -36,8 +36,8 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
       tags: ["React", "TailwindCSS", "Framer Motion", "TypeScript"],
       year: "2024",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://nicolas-patigny-portfolio.netlify.app/",
+      githubLink: "https://github.com/nicolaspatigny/portfolio",
       tagColors,
     },
     {
@@ -46,8 +46,8 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1604689598793-b8bf1dc445a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
       tags: ["JavaScript", "HTML5", "CSS3", "MVC Architecture"],
       year: "2022",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://nicolaspatigny.github.io/battleship/",
+      githubLink: "https://github.com/nicolaspatigny/battleship",
       tagColors,
     },
     {
@@ -56,8 +56,8 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
       tags: ["JavaScript", "Webpack", "HTML5", "CSS3"],
       year: "2022",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://nicolaspatigny.github.io/restaurant-page/",
+      githubLink: "https://github.com/nicolaspatigny/restaurant-page",
       tagColors,
     },
     {
@@ -66,8 +66,8 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1556438064-2d7646166914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=500",
       tags: ["Kotlin", "Android", "Firebase", "UI/UX"],
       year: "2023",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://github.com/nicolaspatigny",
+      githubLink: "https://github.com/nicolaspatigny",
       tagColors,
     },
   ];
