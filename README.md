@@ -1,3 +1,3 @@
 # **Personal Portfolio**
 
-[Link](nicolaspatigny-portfolio.netlify.app)
+[Link](www.nicolaspatigny-portfolio.netlify.app)
