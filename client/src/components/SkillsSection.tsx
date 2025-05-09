@@ -26,7 +26,7 @@ export default function SkillsSection() {
   ];
 
   const methodologies: Skill[] = [
-    { name: "Agile Methodology", percentage: 75, color: "bg-secondary" },
+    { name: "Agile Methodology", percentage: 75 },
   ];
 
   useEffect(() => {
