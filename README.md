@@ -1,2 +1,1 @@
-Personal Portfolio
-Link: nicolaspatigny-portfolio.netlify.app
+Personal Portfolio 
